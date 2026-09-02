@@ -1,6 +1,5 @@
 let prompt = require('prompt-sync')();
-let participentsq = prompt("entrer le nombre des participents : ");
-let participents = +participentsq;
+let participents = +prompt("entrer le nombre des participents : ");
 console.log(`Nombre de participants : ${participents}\n`);
 for(let i = 1; i<=participents;i++){
     console.log(`Participent ${i}`);
