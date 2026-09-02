@@ -1,4 +1,8 @@
 let prompt = require('prompt-sync')();
+console.log("1-  Ouvrir votre profile  ");
+console.log("2 - Ouvrir les parametres ");
+console.log("3 - Ouvrir les notifications ");
+console.log("4 - Deconnection du compt ");
 let choix = prompt("entrer votre choix : ");
 let intchoix = +choix;
 switch(intchoix){
