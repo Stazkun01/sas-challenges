@@ -5,6 +5,6 @@ console.log(`Resultat : ${N}`);
 while (N*N < 100){
     N++;
 }
-console.log(multip);
+
 
 console.log(`${N} x ${N} = ${multip}`);
