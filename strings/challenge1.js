@@ -1,7 +1,10 @@
-function compterCaracteres(chaine){
-    let i = 0 ;
-    while(chaine[i] != chaine[-1]){
-    i++;}
-    return i
+function chaineCaracteres(chaine){
+       let somme = 0;
+       for(let i of chaine){
+        somme = somme + 1;
+       }
+       return somme;
+       
 }
-console.log(compterCaracteres("sas_is_exhausting"));
+
+ console.log(chaineCaracteres("hello world !"));
