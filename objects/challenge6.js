@@ -2,19 +2,26 @@ let students = [
     {
         firstName: "Ali",
         age: 20,
-        city: "Youssoufia"
+        city: "Youssoufia",
+        phrase: "Hey"
     },
     {
         firstName: "Sara",
         age: 22,
-        city: "Marrakech"
+        city: "Marrakech",
+        phrase: "hi"
     },
     {
         firstName: "Omar",
         age: 19,
-        city: "Safi"
+        city: "Safi",
+        phrase: "hello"
     }
 ];
-for (x of students){
-    
+console.log(students);
+for(x in students){
+    console.log(students[x].firstName);
+    console.log(students[x].age);
+    console.log(students[x].phrase);
+
 }
